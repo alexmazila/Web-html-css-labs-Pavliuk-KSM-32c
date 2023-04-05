@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.navigation{
+    display: flex;
+    background-color: #1d2124;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.center_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 22px;
+}
+.search{
+    height: 73px;
+    width: 73px;
+    background-color: #171a1c;
+    color: white;
+    border: none;
+
+}
+.picture{
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+.header{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Regular', sans-serif;
+    color: white;
+    font-size: 27px;
+}
+.button{
+    height: 55px;
+    width: 170px;
+    margin: 40px 0 10px 10px;
+    font-family: 'Open Sans Semibold', sans-serif;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.blue_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: #18b4cf;
+    height: 130px;
+    width: 100%;
+}
+.section2{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1030px;
+}
+.posts{
+    display: flex;
+    width: 1170px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.column{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.picture_parallax{
+    min-height: 590px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url("parallax-bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.clients{
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 110px 40px;
+    position: relative;
+    height: 590px;
+    text-align: center;
+    align-content: center;
+}
+.our_clients{
+    margin-top: 40px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+hr{
+    width: 60px;
+    height: 3px;
+    border: 1px solid #169cb4;
+    background-color: #169cb4;
+}
+.logos{
+    max-height: 30%;
+    max-width: 30%;
+    padding: 35px;
+}
+.hot_post{
+    display: grid;
+    grid-column: auto;
+    margin-bottom: 70px;
+}
+.latest_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,270px);
+}
+.hot_news{
+    display: grid;
+    align-content: center;
+    width: 1170px;
+    margin: auto;
+    grid-gap: 30px;
+}
+.row{
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 30px;
+    width: 1170px;
+}
+.box2{
+    text-align: right;
+    background-color: #f9f7f7;
+    font-family: 'Open Sans Semibold', sans-serif;
+    color: #5b6469;
+    font-size: 14px;
+    max-width: 517px;
+    display: grid;
+    align-content: center;
+}
+h2{
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 20px;
+
+}
+.post1{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2,auto);
+}
+.footer{
+    width: auto;
+    height: 75px;
+    background-color: #1d2124;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1170px;
+    justify-content: center;
+}
+.copyright{
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,auto);
+    color: white;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 13px;
+}
