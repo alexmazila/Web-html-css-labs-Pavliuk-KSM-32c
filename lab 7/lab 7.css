@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: #FFE81F;
+}
+.text{
+    position: absolute;
+    font-size: 650%;
+    text-align: justify;
+    overflow: hidden;
+    bottom: 0;
+    left: 10%;
+    width: 15em;
+    animation-name: starwarstext;
+    animation-duration: 30s;
+    animation: scroll 30s linear infinite;
+    top: 100%;
+    transform-origin: 50% 100%;
+    transform: perspective(600px) rotateX(20deg);
+}
+@keyframes scroll{
+    0% { top: 100%; }
+    100% { top: -170%; }
+
+}
+.text1{
+    text-align: center;
+}
